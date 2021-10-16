@@ -1,0 +1,18 @@
+.hero {
+  background: url("../Images/car3.jpg") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    height: 15rem;
+    width: 100%;
+  }
+}
